@@ -19,8 +19,8 @@ Quick, Help! is a community‑driven web platform designed to support people dur
 * Fully client‑side with no backend dependency
 
 ## AI Disclosure
-* Tool(s) used: ChatGPT
-* Where used: Debugging the code
+* Tool used: ChatGPT
+* Where used: Debugging the code and Documentation
 * What you changed manually: We wrote the entire code ourselves, but used AI for debugging it.
 
 ## Team

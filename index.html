@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick, Help!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Quick, Help!</h1>
+    <p>Share resources. Support people in need.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Find Help</h2>
+      <form>
+        <label for="search">Search available help</label>
+        <input id="search" type="text">
+
+        <label for="filter">Category</label>
+        <select id="filter">
+          <option value="">All</option>
+          <option value="Food">Food</option>
+          <option value="Shelter">Shelter</option>
+          <option value="Transport">Transport</option>
+          <option value="Medical">Medical</option>
+          <option value="Essentials">Essentials</option>
+          <option value="Other">Other</option>
+        </select>
+      </form>
+    </section>
+
+    <section>
+      <h2>Available Resources</h2>
+      <ul id="list"></ul>
+    </section>
+
+    <section>
+      <h2>Post Available Help</h2>
+      <form id="addForm">
+        <label for="title">What help are you offering?</label>
+        <input id="title" required>
+
+        <label for="category">Category</label>
+        <select id="category" required>
+          <option value="">Select</option>
+          <option value="Food">Food</option>
+          <option value="Shelter">Shelter</option>
+          <option value="Transport">Transport</option>
+          <option value="Medical">Medical</option>
+          <option value="Essentials">Essentials</option>
+          <option value="Other">Other</option>
+        </select>
+
+        <button type="submit">Post Help</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>For Inter School Vibe Coding Competition, BMIET</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

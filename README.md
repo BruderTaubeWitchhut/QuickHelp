@@ -7,9 +7,7 @@ Quick, Help!
 Quick, Help! is a community‑driven web platform designed to support people during times of need. It allows users to list available resources such as excess food, temporary shelter, transport, medical assistance, or other essentials, so that others can easily find and avail help. The project is intended for communities and individuals facing emergencies or urgent situations.
 
 ## How to run
-- Open 'index.html' in a browser  
-- No backend required  
-- Live demo: [https://quick-help-bmiet.vercel.app](https://quick-help-bmiet.vercel.app)
+- Link of website hosted on Vercel: [https://quick-help-bmiet.vercel.app](https://quick-help-bmiet.vercel.app)
 
 ## Features
 * Users can post available help or resources
